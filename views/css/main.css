@@ -1,0 +1,139 @@
+/*body,
+ table,
+    thead,
+    tr,
+    tbody,
+    th,
+    td {
+        text-align: center;
+    }*/
+body{
+	text-align: center !important;
+    background-color: #fff;
+   
+}
+/* Reset some default styles */
+body, h1, h2, p, form {
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+
+}
+
+/* Style the main container */
+.main {
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 8);
+}
+
+/* Style the "Register Now" paragraph */
+.main p {
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style the form container */
+.form {
+    margin-bottom: 20px;
+}
+
+/* Style form input fields */
+.formc {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+.btn-succes {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the error message container */
+.mss {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style the link for already registered users */
+.main span a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Style the language table */
+#LangTable {
+    margin-top: 20px;
+}
+
+#aa {
+    color: #007bff;
+    text-decoration: none;
+}
+p{
+	margin-top: 20px;
+	font-size: 30px;
+}
+input{
+	text-align: center;
+}
+.mssg{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+/* Style the table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Style table headers (labels) */
+.table th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Style content cells in the columns */
+.table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Style the first row differently */
+.table tr.first-row td {
+    background-color: #007bff; /* Background color for the first row */
+    color: #fff; /* Text color for the first row */
+    display: inline-block; /* Make cells display inline-block */
+    margin-right: 10px; /* Add some spacing between cells */
+}
+
+/* Style the "Logout" link */
+.abc a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #dc3545; /* Bootstrap's danger color for logout */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hover effect for the "Logout" link */
+.abc a:hover {
+    background-color: #c82333; /* Darker shade for hover effect */
+}
